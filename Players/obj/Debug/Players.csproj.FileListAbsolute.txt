@@ -1,0 +1,5 @@
+D:\Projects\FruitBasketGuessGame\Players\bin\Debug\Players.dll
+D:\Projects\FruitBasketGuessGame\Players\bin\Debug\Players.pdb
+D:\Projects\FruitBasketGuessGame\Players\obj\Debug\Players.csprojResolveAssemblyReference.cache
+D:\Projects\FruitBasketGuessGame\Players\obj\Debug\Players.dll
+D:\Projects\FruitBasketGuessGame\Players\obj\Debug\Players.pdb

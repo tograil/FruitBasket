@@ -1,0 +1,8 @@
+D:\Projects\FruitBasketGuessGame\FruitBasketGuessGame\bin\Debug\FruitBasketGuessGame.exe.config
+D:\Projects\FruitBasketGuessGame\FruitBasketGuessGame\bin\Debug\FruitBasketGuessGame.exe
+D:\Projects\FruitBasketGuessGame\FruitBasketGuessGame\bin\Debug\FruitBasketGuessGame.pdb
+D:\Projects\FruitBasketGuessGame\FruitBasketGuessGame\bin\Debug\Players.dll
+D:\Projects\FruitBasketGuessGame\FruitBasketGuessGame\bin\Debug\Players.pdb
+D:\Projects\FruitBasketGuessGame\FruitBasketGuessGame\obj\Debug\FruitBasketGuessGame.csprojResolveAssemblyReference.cache
+D:\Projects\FruitBasketGuessGame\FruitBasketGuessGame\obj\Debug\FruitBasketGuessGame.exe
+D:\Projects\FruitBasketGuessGame\FruitBasketGuessGame\obj\Debug\FruitBasketGuessGame.pdb
