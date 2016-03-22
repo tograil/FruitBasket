@@ -10,7 +10,7 @@ namespace Players.Container
 {
     public class PlayerContainer<T> where T : BasePlayer
     {
-        const int TotalAttempts = 1000;
+        const int TotalAttempts = 10;
         const int TotalPenalty = 1500;
 
         private int _attempts = 1;

@@ -42,8 +42,8 @@ namespace Players.Hub
         {
             var numberToGuess = new Random().Next(41, 139);
 
-            var closedName = string.Empty;
-            var closedValue = 100;
+            var closestName = string.Empty;
+            var closestValue = 1000;
 
             var finalName = string.Empty;
             var finalAttempts = 0;
@@ -79,9 +79,11 @@ namespace Players.Hub
 
                         lock (closedLock)
                         {
-                            if (closedValue <= Math.Abs(numberToGuess - number)) return;
-                            closedValue = number;
-                            closedName = name;
+                            if (closestValue >= Math.Abs(numberToGuess - number))
+                            {
+                                closestValue = number;
+                                closestName = name;
+                            }
                         }
 
 
@@ -105,7 +107,7 @@ namespace Players.Hub
             Task.WaitAll(ParticipatingPlayers.Select(participatingPlayer => Task.Factory.StartNew(() => participatingPlayer.StartGuessing(numberToGuess))).ToArray());
 
             Console.WriteLine(!numberGuessed
-                ? $"{closedName} has much closest to guess"
+                ? $"{closestName} has much closest to guess"
                 : $"player {finalName} guessed number in {finalAttempts} attempts");
         }
     }
