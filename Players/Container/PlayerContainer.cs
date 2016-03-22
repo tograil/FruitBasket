@@ -14,8 +14,8 @@ namespace Players.Container
         const int TotalPenalty = 1500;
 
         private int _attempts = 1;
-        private int _penalty = 0;
-        private bool _guessingFinished = false;
+        private int _penalty;
+        private bool _guessingFinished;
 
         public readonly string Name;
         private readonly T _player;

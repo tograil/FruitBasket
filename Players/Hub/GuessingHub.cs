@@ -40,7 +40,7 @@ namespace Players.Hub
 
         public void Guessing()
         {
-            var numberToGuess = new Random().Next(41, 139);
+            var numberToGuess = new Random().Next(40, 140);
 
             var closestName = string.Empty;
             var closestValue = 1000;

@@ -23,7 +23,7 @@ namespace Players.Players
 
         public override int GuessNumber()
         {
-            return _random.Next(41, 139);
+            return _random.Next(40, 140);
         }
 
         

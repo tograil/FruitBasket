@@ -12,7 +12,7 @@ namespace Players.Players
 
         public CheaterPlayer() : base(null)
         {
-            Randomizer = () => _random.Next(41, 139);
+            Randomizer = () => _random.Next(40, 140);
         }
 
         public CheaterPlayer(IKnowNumbers knowNumbers) : base(knowNumbers)

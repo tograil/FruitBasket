@@ -23,11 +23,11 @@ namespace Players.Players
         public override int GuessNumber()
         {
 
-            var newNumber = _random.Next(41, 139);
+            var newNumber = _random.Next(40, 140);
 
             while (AlreadyGuessedNumbers.Contains(newNumber))
             {
-                newNumber = _random.Next(41, 139);
+                newNumber = _random.Next(40, 140);
             }
 
             AlreadyGuessedNumbers.Add(newNumber);
